@@ -11,7 +11,7 @@ console.log(2);
 //exibindo o tipo de dado na tela
 console.log(typeof 2.5)
 
-//imprimindo uma constante 
+//imprimindo uma constante  
 const meunumero = 10;
 console.log(meunumero)
 
