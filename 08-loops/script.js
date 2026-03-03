@@ -36,3 +36,63 @@ while (y >= 5){
     console.log(n)
     n++;
  } while (n <= 10);
+
+
+//break
+
+ let contador = 0;
+
+ while(contador < 10){
+   console.log("Contador: " + contador);
+
+   if (contador === 5){
+      break;
+   }
+
+   contador++;
+ }
+
+ //for
+ for(i = 0 ; i <= 5; i++){
+   console.log(i);
+ }
+
+ let j = 5;
+
+ for( j; j > 2; j--){
+   console.log(j)
+ }
+
+ for (let k = 1; k <= 7; k++) {
+   if (k === 5){
+      continue
+   }
+
+   console.log (k)
+ }
+
+
+
+ const listNome = ["João", "Maria", "José"];
+
+ for(let p = 0; p < listNome.length; p++){
+   console.log(listNome[p]);
+ }
+
+ //percorrendo um array com loop forEach
+ listNome.forEach(function(nome) {
+   console.log(nome)
+ });
+
+ // mais mordeno - forEach com arrow fuction
+ listNome.forEach(nome => {
+   console.log(nome);
+ });
+
+
+ //nome e index com forEach
+ listNome.forEach((nome, indice) => {
+   console.log(indice, nome);
+ });                                                       
+
+ 
